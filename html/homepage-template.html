@@ -1,0 +1,59 @@
+<template id="page-template">
+    <section>
+        <section class="header">
+            <div class="search-destination">
+                <div>
+                    <img src="../images/logo-slogan.png">
+                </div>
+                <div class="search-box">
+                    <button class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <input type="text" class="search-bar" placeholder="Chercher une destination...">
+                </div>
+            </div>
+        </section>
+        <div>
+            <div id="filters">
+                <div class="checkbox-filter-container">
+                    <input type="checkbox" id="petsAllowed" name="petsAllowed" class="filters">
+                    <div>
+                        <i class="fa fa-paw" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="checkbox-filter-container">
+                    <input type="checkbox" id="breakfast" name="breakfast" class="filters">
+                    <div>
+                        <i class="fa fa-coffee" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="numberfield-filter-container">
+                    <label for="minPrice">Prix minimum :</label>
+                    <input type="number" id="minPrice" name="minPrice" class="filters" min="0" value="0">
+                </div>
+                <div class="numberfield-filter-container">
+                    <label for="maxPrice">Prix maximum :</label>
+                    <input type="number" id="maxPrice" name="maxPrice" class="filters" min="0" value="0">
+                </div>
+                <div class="checkbox-filter-container">
+                    <input type="checkbox" id="applyFilters" name="applyFilters">
+                    <div>
+                        <label for="applyFilters">Appliquer les filtres</label>
+                    </div>
+                </div>
+            </div>
+            <div id="destinations">
+                <template id="destination-template">
+                    <div class="destination-card">
+                        <a href="{{href}}">
+                            <img class="image-card" src="{{src}}">
+                            <div class="description-card">
+                                <p class="destination-caption">{{ville}} : {{temperature}}</p>
+                                <h2 class="destination-label">{{pays}}</h2>
+                                <p class="destination-price">A partir de {{prix}} €</p>
+                            </div>
+                        </a>
+                    </div>
+                </template>          
+            </div>
+        </div>
+    </section>
+</template>

@@ -1,0 +1,86 @@
+<template id="page-template">  
+    <div>
+        <section id="reservation">
+            <div id="reservation-info">
+                <div id="reservation-desc">
+                    <h1>
+                        {{label}}
+                    </h1>
+                    <h2>
+                        {{pays}} - {{ville}}
+                    </h2>
+                    <p>
+                       {{description}}
+                    </p>
+                </div>
+            </div>
+            <div id="reservation-form">
+                <h1>Réserver</h1>
+                <div>
+                    <h2>
+                        <span id="price">0</span> €
+                    </h2>
+                </div>
+                <div>
+                    <div id="reservation-form-fields">
+                        <div class="datefield-filter-container">
+                            <label for="start-date">Date de début</label>
+                            <input type="date" name="start-date" id="start-date" class="price-factors">
+                        </div>
+                        <div class="datefield-filter-container">
+                            <label for="end-date">Date de fin</label>
+                            <input type="date" name="end-date" id="end-date" class="price-factors">
+                        </div>
+                        <div class="numberfield-filter-container">
+                            <label for="adults">Adultes</label>
+                            <input type="number" name="adults" id="adults" value="1" min="0" class="price-factors">
+                        </div>
+                        <div class="numberfield-filter-container">
+                            <label for="children">Enfants</label>
+                            <input type="number" name="children" id="children" value="0" min="0" class="price-factors">
+                        </div>
+                        <div>
+                            <label for="breakfast">Petit déjeuné</label>
+                            <input type="checkbox" name="breakfast" id="breakfast" class="price-factors">
+                        </div>
+                    </div>
+                    <div id="reservation-form-buttons" class="form-buttons">
+                        <div>
+                            <a href="#/cart">
+                                <input type="button" value="Ajouter au panier" id="add-to-cart" class="button-validation">
+                            </a>
+                            <p id="reservation-constraints"></p>
+                        </div>
+                        <div>
+                            <input type="button" value="Réinitialiser" id="reset-reservation">
+                            <p id="reservation-constraints"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews-container">
+            <h1>
+                Avis
+            </h1>
+            <div id="reviews">
+                <div class="review">
+                    <h2>
+                        Kevin B.
+                    </h2>
+                    <p>
+                        C'était super !
+                    </p>
+                </div>
+                <div class="review">
+                    <h2>
+                        Karim B.
+                    </h2>
+                    <p>
+                        C'était pas ouf...
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</template>

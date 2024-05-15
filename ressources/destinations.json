@@ -1,0 +1,105 @@
+{
+    "destinations":
+    [
+        {
+            "openWeatherMapId": 1650535,
+            "country":"Indonésie",
+            "city":"Bali",
+            "label":"Voyage à Bali",
+            "description":"Bali est une île située en Indonésie, connue pour ses plages de sable blanc, ses temples hindous majestueux, sa culture riche et sa cuisine délicieuse. L'île est également réputée pour ses forêts tropicales luxuriantes, ses rizières en terrasses et ses volcans actifs. Bali est une destination populaire pour les voyageurs qui cherchent à se détendre, à se ressourcer et à découvrir une culture différente tout en profitant d'un cadre naturel spectaculaire.",
+            "pricePerAdult":98,
+            "breakfast":true,
+            "petsAllowed":true,
+            "image":"../images/Bali.jpg"
+        },
+        {
+            "openWeatherMapId": 3451190,
+            "country":"Brazil",
+            "city":"Rio",
+            "label":"Voyage à Rio",
+            "description":"Rio de Janeiro est une ville côtière du Brésil, mondialement connue pour son carnaval animé, ses plages de sable blanc, ses montagnes emblématiques et son mode de vie animé. La ville regorge de sites touristiques célèbres, tels que la statue du Christ Rédempteur, le Pain de Sucre et les plages de Copacabana et d'Ipanema. La ville abrite également une culture riche, une cuisine délicieuse et une vie nocturne vibrante. Rio de Janeiro est une destination de choix pour les voyageurs qui cherchent à découvrir la culture brésilienne tout en profitant d'un cadre naturel spectaculaire.",
+            "pricePerAdult":107,
+            "breakfast":false,
+            "petsAllowed":true,
+            "image":"../images/Brazil.jpg"
+        },
+        {
+            "openWeatherMapId": 292223,
+            "country":"Émirats arabes unis",
+            "city":"Dubai",
+            "label":"Voyage à Dubai",
+            "description":"Dubai est une ville située dans les Émirats arabes unis, connue pour son architecture futuriste, ses centres commerciaux de luxe et son désert environnant. La ville est célèbre pour des sites touristiques tels que le Burj Khalifa, le plus haut bâtiment du monde, le Burj Al Arab, un hôtel luxueux en forme de voile, et l'archipel artificiel de Palm Jumeirah. Dubai est également connue pour ses centres commerciaux ultramodernes, tels que le Dubai Mall, le plus grand centre commercial au monde, et le Mall of the Emirates, qui abrite une station de ski en intérieur. Dubai est une destination populaire pour les voyageurs qui cherchent à découvrir le luxe, le modernisme et l'exotisme de l'architecture et la culture moyen-orientale.",
+            "pricePerAdult":556,
+            "breakfast":false,
+            "petsAllowed":false,
+            "image":"../images/Dubai.jpg"
+        },
+        {
+            "openWeatherMapId": 2186224,
+            "country":"Nouvelle Zélande",
+            "city":"Wellington",
+            "label":"Voyage à Wellington",
+            "description":"La Nouvelle-Zélande est un pays insulaire situé dans le sud-ouest de l'océan Pacifique, connu pour ses paysages naturels époustouflants, ses forêts tropicales luxuriantes, ses lacs turquoise, ses montagnes enneigées et ses fjords pittoresques. Le pays est également célèbre pour sa culture maorie et son accueil chaleureux envers les visiteurs. Les activités populaires en Nouvelle-Zélande incluent la randonnée, le ski, la découverte de la faune, les sports nautiques et les visites de vignobles. La Nouvelle-Zélande est une destination populaire pour les voyageurs qui cherchent à explorer une nature préservée et à découvrir une culture unique.",
+            "pricePerAdult":415,
+            "breakfast":true,
+            "petsAllowed":false,
+            "image":"../images/New_Zealand.jpg"
+        },
+        {
+            "openWeatherMapId": 7609695,
+            "country":"France",
+            "city":"Saint-Martin",
+            "label":"Voyage à Saint-Martin",
+            "description":"Saint-Martin est une petite île des Caraïbes partagée entre la France et les Pays-Bas, connue pour ses plages de sable blanc, ses eaux turquoise et son atmosphère détendue. L'île offre une combinaison de culture caribéenne, française et hollandaise, avec une cuisine délicieuse et une vie nocturne animée. Les activités populaires incluent la baignade, le snorkeling, le jet-ski, la voile et la découverte de la nature préservée. Saint-Martin est une destination idéale pour les voyageurs qui cherchent à se détendre dans un cadre tropical tout en découvrant une culture unique et fascinante.",
+            "pricePerAdult":126,
+            "breakfast":true,
+            "petsAllowed":true,
+            "image":"../images/Saint-Martin.jpg"
+        },
+        {
+            "openWeatherMapId": 6167865,
+            "country":"Canada",
+            "city":"Toronto",
+            "label":"Voyage à Toronto",
+            "description":"Toronto est la plus grande ville du Canada, située dans la province de l'Ontario, connue pour son architecture impressionnante, sa vie culturelle riche et son atmosphère cosmopolite. La ville est célèbre pour des sites touristiques tels que la Tour CN, le plus haut bâtiment de l'hémisphère ouest, le Musée royal de l'Ontario, l'Art Gallery of Ontario, ainsi que pour ses quartiers multiculturels comme Chinatown et Little Italy. Toronto est également connue pour sa scène culinaire variée, ses événements sportifs de classe mondiale, et sa proximité avec les chutes du Niagara. Toronto est une destination idéale pour les voyageurs qui cherchent à découvrir la vie urbaine canadienne tout en explorant une culture diversifiée.",
+            "pricePerAdult":182,
+            "breakfast":false,
+            "petsAllowed":false,
+            "image":"../images/Toronto.jpg"
+        },
+        {
+            "openWeatherMapId": 2988507,
+            "country":"France",
+            "city":"Paris",
+            "label":"Voyage à Paris",
+            "description":"Paris est la capitale de la France, connue dans le monde entier pour son histoire, sa culture, son architecture et sa gastronomie. La ville regorge de sites touristiques célèbres tels que la Tour Eiffel, l'Arc de Triomphe, la cathédrale Notre-Dame et le Louvre. Paris est également connue pour ses quartiers charmants tels que Montmartre et le Marais, ses restaurants étoilés, ses pâtisseries et ses cafés historiques. La ville est réputée pour sa mode, ses galeries d'art et ses événements culturels, comme la Fashion Week et la Fête de la musique. Paris est une destination idéale pour les voyageurs qui cherchent à explorer la culture française, l'art, la mode et la gastronomie, dans une ville romantique et historique.",
+            "pricePerAdult":305,
+            "breakfast":true,
+            "petsAllowed":false,
+            "image":"../images/Paris.jpg"
+        },
+        {
+            "openWeatherMapId": 2643743,
+            "country":"Angleterre",
+            "city":"Londre",
+            "label":"Voyage à Londre",
+            "description":"Londres est la capitale de l'Angleterre et du Royaume-Uni, connue pour son histoire, sa culture et son atmosphère cosmopolite. La ville regorge de sites touristiques célèbres tels que le Palais de Buckingham, Big Ben, le Tower Bridge, ainsi que pour ses musées de renommée mondiale comme le British Museum et la Tate Modern. Londres est également connue pour ses quartiers emblématiques tels que Camden, Soho et Notting Hill, ses théâtres de renom, ses restaurants étoilés et ses pubs traditionnels. La ville est un centre financier et culturel mondial, avec une vie nocturne animée et une scène artistique florissante. Londres est une destination idéale pour les voyageurs qui cherchent à découvrir une culture riche, une histoire fascinante et une ville moderne et dynamique.",
+            "pricePerAdult":263,
+            "breakfast":false,
+            "petsAllowed":true,
+            "image":"../images/London.jpg"
+        },
+        {
+            "openWeatherMapId": 2332459,
+            "country":"Nigeria",
+            "city":"Lagos",
+            "label":"Voyage à Lagos",
+            "description":"Lagos est une ville côtière du Nigeria, connue pour son animation, sa vie nocturne et ses plages. La ville est le centre économique et culturel du Nigeria, avec une population dynamique et une scène artistique florissante. Lagos est également connue pour ses marchés animés, ses restaurants locaux, sa musique afrobeat et ses festivals culturels tels que le Lagos Fashion Week et le Lagos International Jazz Festival. Les plages de Lagos sont populaires pour la baignade, la planche à voile et le surf. Lagos est une destination idéale pour les voyageurs qui cherchent à découvrir une culture africaine vibrante, une vie nocturne animée et des plages pittoresques.",
+            "pricePerAdult":128,
+            "breakfast":false,
+            "petsAllowed":false,
+            "image":"../images/Lagos.jpg"
+        }
+
+    ]
+}

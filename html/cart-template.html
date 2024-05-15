@@ -1,0 +1,106 @@
+<template id="page-template">
+    <div>
+        <section id="cart-bg">
+            <div id="cart">
+                <div id="reservations">
+                    <h1>
+                        Mon panier
+                    </h1>
+                    <div id="trips">
+                        <template id="trip-template">
+                            <div class="trip">
+                                <img class="trip-image" src="{{src}}" alt="{{alt}}">
+                                <div class="trip-infos">
+                                    <h2>
+                                        Réservation n°{{numero}}
+                                    </h2>
+                                    <p>
+                                        {{label}}
+                                    </p>
+                                    <div class="trip-description">
+                                        <div class="trip-dates">
+                                            <p>
+                                                Date de départ : {{startDate}}
+                                            </p>
+                                            <p>
+                                                Date de fin : {{endDate}}
+                                            </p>
+                                        </div>
+                                        <div class="trip-options">
+                                            <p>
+                                                Adultes : {{adults}}
+                                            </p>
+                                            <p>
+                                                Enfants : {{children}}
+                                            </p>
+                                            <p>
+                                                Montant : {{price}} €
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="trip-delete">
+                                    <button id="delete-{{id}}" class="button-delete">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div id="bill">
+                    <h1>
+                        Total
+                    </h1>
+                    <div id="bill-infos">
+                        <template id="paymentline-template">
+                            <p>+ {{line-amount}}</p>
+                        </template>
+                        <p>Total : <span id="price">{{total}}</span> €</p>
+                    </div>
+                    <div class="form-buttons">
+                        <input type="button" value="Confirmer la commande" id="confirm" class="button-validation">
+                    </div>
+                </div>
+            </div>
+            <div id="confirmation-modal">
+                <form id="confirmation-form">
+                    <h1>Finalisation de la commande n°<span id="order-id"></span></h1>
+                    <div id="confirmation-form-fields">
+                        <div class="textfield-filter-container half-width">
+                            <label for="lastname">Nom :</label>
+                            <input type="text" name="lastname" id="lastname" required>
+                        </div>
+                        <div class="textfield-filter-container half-width">
+                            <label for="firstname">Prénom :</label>
+                            <input type="text" name="firstname" id="firstname" required>
+                        </div>
+                        <div class="textfield-filter-container half-width">
+                            <label for="country">Pays :</label>
+                            <input type="text" name="country" id="country" required>
+                        </div>
+                        <div class="textfield-filter-container half-width">
+                            <label for="city">Ville :</label>
+                            <input type="text" name="city" id="city" required>
+                        </div>
+                        <div class="textfield-filter-container full-width">
+                            <label for="address">Adresse :</label>
+                            <input type="text" name="address" id="address" required>
+                        </div>
+                        <div class="textfield-filter-container half-width">
+                            <label for="phone">Téléphone :</label>
+                            <input type="text" name="phone" id="phone" required>
+                        </div>
+                        <div class="mailfield-filter-container half-width">
+                            <label for="address">Adresse mail :</label>
+                            <input type="email" name="address" id="address" required>
+                        </div>
+                    </div>
+                    <div class="form-buttons">
+                        <input type="submit" value="Finaliser la commande" id="finalize" class="button-validation">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</template>

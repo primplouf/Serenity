@@ -1,0 +1,37 @@
+{
+    "routes":
+    [
+        {
+            "name":"Accueil",
+            "appendNavlink":true,
+            "endpoint":"/",
+            "templatePath":"html/homepage-template.html",
+            "templateId":"page-template",
+            "javascriptPath":"./homepage.js"
+        },
+        {
+            "name":"Réservation",
+            "appendNavlink":false,
+            "endpoint":"/reservation",
+            "templatePath":"html/reservation-template.html",
+            "templateId":"page-template",
+            "javascriptPath":"./reservation.js"
+        },
+        {
+            "name":"Panier",
+            "appendNavlink":true,
+            "endpoint":"/cart",
+            "templatePath":"html/cart-template.html",
+            "templateId":"page-template",
+            "javascriptPath":"./cart.js"
+        },
+        {
+            "name":"Contact",
+            "appendNavlink":true,
+            "endpoint":"/contact",
+            "templatePath":"html/contact-template.html",
+            "templateId":"page-template",
+            "javascriptPath":""
+        }
+    ]
+}

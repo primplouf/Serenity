@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/classes/cart.js"></script>
+    <script src="js/classes/destination.js"></script>
+    <script src="js/classes/route.js"></script>
+    <script src="js/classes/trip.js"></script>
+    <script type ="module" src="js/intialization.js"></script>
+    <script type ="module" src="js/router.js"></script>
+    <title>Serenity</title>
+</head>
+<body>
+    <nav>
+        <a href="#/" class="logo">
+            <img src="images/logo.png" alt="serenity-logo">
+        </a>
+        <ul id="navmenu">
+            <template id="navlink">
+                <li>
+                    <a href="{{href}}">
+                        {{name}}
+                    </a>
+                </li>
+            </template>
+        </ul>
+    </nav>
+    <section id="page-content">
+    </section>
+    <footer>
+        <div>
+            <p>
+                Serenity
+            </p>
+        </div>
+        <div id="contact-icons">
+            <a href="tel:+4733378901"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="mailto:serenityltd@gmail.com?subject=Demande de renseignements&body=Bonjour, je souhaiterais obtenir des renseignements sur "><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <p>
+                Tous droits réservés
+            </p>
+        </div>
+    </footer>
+</body>
